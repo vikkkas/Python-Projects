@@ -37,7 +37,7 @@ elif ty=='2':
         password+=random.choice(symbols)
 
     random.shuffle(password)
-    hard_password = "" #Empty list
+    hard_password = "" #Empty string
     for x in password:
         hard_password+=x
     
